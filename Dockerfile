@@ -6,4 +6,3 @@ RUN adduser --disabled-login --system spinnaker
 RUN mkdir -p /opt/gate/plugins && chown -R spinnaker:nogroup /opt/gate/plugins
 USER spinnaker
 CMD ["/opt/gate/bin/gate"]
-
